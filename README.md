@@ -1,7 +1,7 @@
 # ablanco1950-LicensePlate_FindContours_And_Haarcascade
 Using together cv2's findcontours and Haarcascade license plate detection together with the application of an extensive set of filters
 applying on a restricted set of car registration plates of known format: the Spanish ones with NNNNAAA format, 14 are obtained
- hits in a sample of 21 photos (more give 66% hits). No need to label photos but the proccess takes a long  time.
+ hits in a sample of 21 photos (more than 66% hits). No need to label photos but the proccess takes a long  time.
 
 Requirements:
 
