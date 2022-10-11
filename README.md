@@ -36,6 +36,7 @@ Detected, pyteseract has decrypted a license plate number that does not match th
  
 Messages indicated that the system is not dead, but in process, and the termination of processes due to excess time.
 
+As a result, the LicenseResults.txt file is obtained with the relationship between the true car license plate and the detected license plate.
 
 References:
 
