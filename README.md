@@ -30,8 +30,10 @@ LicensePlateFindContoursHaarcascade_SpanishLicense_WithMaxFilters.py
 Three types of messages are presented:
 
 Hit followed by the name of the filter that, applied, has resulted in pytesseract detecting the correct license plate number
-detected, pyteseract has decrypted a license plate number that does not match the true one, which is detected because
+
+Detected, pyteseract has decrypted a license plate number that does not match the true one, which is detected because
  the true registration number is part of the name of the jpg file that constitutes the photo
+ 
 Messages indicated that the system is not dead, but in process, and the termination of processes due to excess time.
 
 
