@@ -27,7 +27,9 @@ from the download directory,
 
 LicensePlateFindContoursHaarcascade_SpanishLicense_WithMaxFilters.py
 
-Three types of messages are presented:
+The types of messages presented are:
+
+The name of the filter that has detected a possible license plate indicating whether it has been done by findcontours or haarcaca
 
 Hit followed by the name of the filter that, applied, has resulted in pytesseract detecting the correct license plate number
 
