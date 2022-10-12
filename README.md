@@ -42,6 +42,19 @@ At the end, the number plate that has been detected the most is assigned to the 
 
 At the end, the LicenseResults.txt file is obtained with the relationship between the true car license plate and the detected license plate for each car.
 
+==========
+
+Is also included:
+
+LicensePlateFindContoursHaarcascade_InternationalLicense_WithMaxFilters.py
+
+That deals with all types of license plates, not just Spanish ones, by not filtering car license plates by car license plate format,
+the hit rate drops to 36%.
+
+for example: the car license plate 2537JJD appears misrecognized as 2537JJ0 (confuses the final D with a 0) when it would not have been recognized
+by the program that only deals with Spanish license plates by filtering the NNNNAAA format through it and verifying that in the last position there is a zero and not an alphabetic character.
+
+
 References:
 
 https://github.com/spmallick/mallick_cascades/tree/master/haarcascades, the well known haarcascade_russian_plate_number.xml
