@@ -62,9 +62,7 @@ With labeled images:
 
 https://github.com/ablanco1950/LicensePlate_CLAHE
 
-
-
-
+https://github.com/ablanco1950/LicensePlateImage_ThresholdFiltered
 
 
 References:
