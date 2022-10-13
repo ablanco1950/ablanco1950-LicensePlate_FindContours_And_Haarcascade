@@ -31,16 +31,16 @@ The types of messages presented are:
 
 The name of the filter that has detected a possible license plate indicating whether it has been done by findcontours or haarcascade
 
-Hit followed by the name of the filter that, applied, has resulted in pytesseract detecting the correct license plate number
+Hit followed by the name of the filter that, applied, has resulted in pytesseract detecting the correct license plate number. That is posible because le name of each image is de number of license plate
 
 Detected, pyteseract has decrypted a license plate number that does not match the true one, which is detected because
  the true registration number is part of the name of the jpg file that constitutes the photo
  
 Messages indicated that the system is not dead, but in process, and the termination of processes due to excess time.
 
-At the end, the number plate that has been detected the most is assigned to the car
+At the end of the processing of each license plate, the number plate that has been detected the most is assigned to the image
 
-At the end, the LicenseResults.txt file is obtained with the relationship between the true car license plate and the detected license plate for each car.
+At the end of the whole process, the LicenseResults.txt file is obtained with the relationship between the true car license plate and the detected license plate for each car.
 
 ==========
 
@@ -54,7 +54,11 @@ the hit rate drops to 36%.
 For example: the car license plate 2537JJD appears misrecognized as 2537JJ0 (confuses the final D with a 0) when it would not have been recognized
 by the program that only deals with Spanish license plates by filtering the NNNNAAA format through it and verifying that in the last position there is a zero and not an alphabetic character.
 
-Other projects presented on car license plate recognition
+Other projects presented on car license plate recognition:
+
+https://github.com/ablanco1950/LicensePlate_FindContours
+
+
 
 
 References:
