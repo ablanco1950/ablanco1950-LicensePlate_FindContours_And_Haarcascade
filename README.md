@@ -54,6 +54,8 @@ the hit rate drops to 36%.
 For example: the car license plate 2537JJD appears misrecognized as 2537JJ0 (confuses the final D with a 0) when it would not have been recognized
 by the program that only deals with Spanish license plates by filtering the NNNNAAA format through it and verifying that in the last position there is a zero and not an alphabetic character.
 
+Other projects presented on car license plate recognition
+
 
 References:
 
