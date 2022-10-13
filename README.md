@@ -58,6 +58,12 @@ Other projects presented on car license plate recognition:
 
 https://github.com/ablanco1950/LicensePlate_FindContours
 
+With labeled images:
+
+https://github.com/ablanco1950/LicensePlate_CLAHE
+
+
+
 
 
 
