@@ -11,8 +11,6 @@ numpy
 
 cv2
 
-you
-
 re
 
 imutils
