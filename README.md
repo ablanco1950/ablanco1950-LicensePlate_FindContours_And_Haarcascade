@@ -94,3 +94,5 @@ https://en.wikipedia.org/wiki/Kernel_(image_processing)
 https://www.sicara.fr/blog-technique/2019-03-12-edge-detection-in-opencv
 
 https://www.aprendemachinelearning.com/clasacion-de-images-en-python/
+
+Note: On 03/13/2023, the best results are obtained with the https://github.com/ablanco1950/LicensePlate_Yolov8_Filters_PaddleOCR project, which would replace this one.
